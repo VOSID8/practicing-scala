@@ -17,8 +17,22 @@ object lists {
     /* tail is everything except header */
     println(names.tail)
     println(names.isEmpty)
-    
+
     println(List.fill(5)(2))
+
+    /* to iterate */
+    mylist.foreach(println)
+    var sum : Int =0
+    mylist.foreach(sum += _)
+    println(sum)
+
+
+    for(name <- names){
+      println(name);
+    }
+    
+    println(names(0))
+
 
 
   }
