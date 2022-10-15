@@ -30,11 +30,8 @@ object lists {
     for(name <- names){
       println(name);
     }
-    
+
     println(names(0))
-
-
-
   }
 
 }
