@@ -18,7 +18,7 @@ object Demo{
     user.name = "Tom"
      */
     user.age = 34
-    /* Tum override ker stke ho */ 
+    /* Tum override ker stke ho */
     println(user.name)
     println(user.age)
   }
