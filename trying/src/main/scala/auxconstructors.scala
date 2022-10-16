@@ -1,5 +1,5 @@
 
-class User(var name: String,var age:Int){
+class hi(var name: String,var age:Int){
   def this(){
     this("Tom",32)
   }
@@ -9,9 +9,9 @@ class User(var name: String,var age:Int){
   }
 }
 
-object Demo{
+object hey{
   def main(args: Array[String]): Unit ={
-    var user2=new User()
-    var user3=new User("Max")
+    var user2=new hi()
+    var user3=new hi("Max")
   }
 }
