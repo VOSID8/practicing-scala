@@ -8,7 +8,7 @@ object L5Objects extends App{
     //val var methods can be inside objects
     def apply(mother: Person, father: Person): Person = new Person("Bobbie")
   }
-  class Person{
+  class Person(val name: String = "Bobbie"){
     //instance-level functionality
 
   }

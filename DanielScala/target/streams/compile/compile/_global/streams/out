@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0)[0m
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.3)[0m
-[0m[[0m[33mwarn[0m] [0m[0m2 deprecations in total; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\learning-scala\DanielScala\src\main\scala\Oops [3]\L6Inheritanceandtraits.scala:23:20: creatureType is already defined as value creatureType[0m
+[0m[[0m[31merror[0m] [0m[0m      override val creatureType = "domestic"[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
