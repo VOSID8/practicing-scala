@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ScalaBasics\learning-scala\RockTheJVM\rockthejvm\src\main\scala\Oops [3]\L4MethodNotationsExercise.scala:6:31: not enough arguments for constructor Person: (name: String, favouriteMovie: String, age: Int): L4MethodNotationsExercise.Person.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter age.[0m
+[0m[[0m[31merror[0m] [0m[0m    def +(nickname: String) = new Person(s"$name($nickname)", favouriteMovie)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\ScalaBasics\learning-scala\RockTheJVM\rockthejvm\src\main\scala\Oops [3]\L4MethodNotationsExercise.scala:10:14: not enough arguments for constructor Person: (name: String, favouriteMovie: String, age: Int): L4MethodNotationsExercise.Person.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter age.[0m
+[0m[[0m[31merror[0m] [0m[0m  val mary = new Person("Mary", "Inception")[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
