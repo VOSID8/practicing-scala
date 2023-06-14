@@ -2,6 +2,8 @@ object L4MethodNotationsExercise extends App {
   //1) Overload the + operator
   // mary + "the rockstar" => new person "Mary (the rockstar)"
   class Person(val name: String, favouriteMovie: String, val age: Int = 0){
+    val N_EYES = 2 //class level functionality (static)
+                   //does not exist in Scala
     def likes(movie: String): Boolean = movie == favouriteMovie
     def +(nickname: String) = new Person(s"$name($nickname)", favouriteMovie)
     def unary_+ : Person = new Person(name, favouriteMovie, age + 1)
@@ -18,7 +20,7 @@ object L4MethodNotationsExercise extends App {
 
   println((mary + "the rockstar").age ) //0
   println((+mary).age) //1
-  println(mary learns) //Mary learns Scala
+  //println(mary learns) //Mary learns Scala
 
   //3) Add a "learns" method in the Person class => "Mary learns Scala"
 }
