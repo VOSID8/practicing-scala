@@ -2,6 +2,7 @@ object L6Inheritanceandtraits extends App {
   
     class Animal {
       val creatureType = "wild"
+      val creatureType2 = "wild" //final keyword prevents overriding
       final val creatureType1 = "wild" //final keyword prevents overriding
       def eat = println("nomnom")
     }
@@ -31,6 +32,7 @@ object L6Inheritanceandtraits extends App {
     val dog = new Dog("K9")
     dog.eat
     println(dog.creatureType)
+
 
     //type substitution (polymorphism)
     val unknownAnimal: Animal = new Dog("K9")

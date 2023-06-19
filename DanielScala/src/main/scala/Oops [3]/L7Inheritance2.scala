@@ -5,7 +5,7 @@ object L7Inheritance2 extends App {
     }
 
     class Dog extends Animal {
-      override val creatureType: String = "Canine"
+      val creatureType: String = "Canine"
       def eat: Unit = println("crunch crunch") //override keyword is optional
     }
 
@@ -13,18 +13,26 @@ object L7Inheritance2 extends App {
     trait Carnivore {
       def eat(animal: Animal): Unit
       val preferredMeal: String = "fresh meat"
+      val creatureType: String = "Test"
     }
     //traits can be inherited along with class 
     //multiple traits can be inherited 
     //traits are behavior, abstract class is "thing"
     class Crocodile extends Animal with Carnivore {
-      val creatureType: String = "croc"
+      //idher ager override keyword nahi lagaya toh error aayega
+      //traits can have abstract and non abstract members
+      //traits do not have constructor parameters
+      //trait me declare kra hua hai creatureType toh override keyword lagana padega
+      //same does not goes for abstract class
+      override val creatureType: String = "croc"
       def eat: Unit = println("nomnomnom")
       def eat(animal: Animal): Unit = println(s"I'm a croc and I'm eating ${animal.creatureType}")
     }
 
+
     val dog = new Dog
     val croc = new Crocodile
+    println(croc.creatureType) //croc
     croc.eat(dog) //I'm a croc and I'm eating Canine
     //dog got called and passed as parameter to croc eat method
 

@@ -1,29 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Projects\learning-scala\DanielScala\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Projects\practicing-scala\DanielScala\target\scala-2.13\classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Dog.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Adult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$cat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Animal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Dog.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Adult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$cat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Animal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Dog.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Adult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$cat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	L6Inheritanceandtraits$Animal.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Projects\learning-scala\DanielScala\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$UnderflowException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L14PackagingImport$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$MyException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$OverflowException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L14PackagingImport.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$PocketCalculator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions$MathCalculationException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	L13Exceptions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Projects\practicing-scala\DanielScala\target\scala-2.13\classes.bak[0m
