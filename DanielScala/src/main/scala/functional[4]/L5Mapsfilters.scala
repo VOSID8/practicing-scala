@@ -26,6 +26,7 @@ object MapFlatmapFilterFor extends App {
 
   // "iterating"
   val combinations = numbers.filter(_ % 2 == 0).flatMap(n => chars.flatMap(c => colors.map(color => "" + c + n + "-" + color)))
+  //nested for loops jesa hogya hai- numbers pe filter laga k, then chars pe flatmap, then colors pe map
 
   println(combinations)
   //result: List(a1-black, a1-white, a2-black, a2-white, b1-black, b1-white, b2-black, b2-white)
@@ -36,9 +37,9 @@ object MapFlatmapFilterFor extends App {
 
   // for-comprehensions
   val forCombinations = for {
-    n <- numbers if n % 2 == 0
-    c <- chars
-    color <- colors
+    n <- numbers if n % 2 == 0 //1
+    c <- chars                 //2
+    color <- colors            //3
   } yield "" + c + n + "-" + color
   println(forCombinations) 
 
@@ -50,5 +51,21 @@ object MapFlatmapFilterFor extends App {
   list.map { x =>
     x * 2
   }
+
+  /*
+    1. MyList supports for comprehensions?
+       map(f: A => B) => MyList[B]
+       filter(p: A => Boolean) => MyList[A]
+       flatMap(f: A => MyList[B]) => MyList[B]
+
+    2. A small collection of at most ONE element - Maybe[+T]
+       - map, flatMap, filter
+
+   */
+
+   object Maybe {
+     def apply[T](x: T) = new Maybe[T](x)
+   }
+   
 
 }
