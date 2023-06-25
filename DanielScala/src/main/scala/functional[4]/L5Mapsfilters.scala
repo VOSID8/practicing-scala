@@ -62,10 +62,6 @@ object MapFlatmapFilterFor extends App {
        - map, flatMap, filter
 
    */
-
-   object Maybe {
-     def apply[T](x: T) = new Maybe[T](x)
-   }
    
 
 }

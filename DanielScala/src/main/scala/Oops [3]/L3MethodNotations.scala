@@ -7,9 +7,12 @@ object L3MethodNotations extends App {
     def isAlive: Boolean = true 
     def apply(): String = s"Hi, my name is $name and I like $favouriteMovie"
   }
+  //difference between method and function is that function can be called without an instance of a class 
+  //but method can be called only with an instance of a class
 
   val mary = new Person("Mary", "Inception")
-  println(mary.likes("Inception")) // this is a normal method call
+  println(mary.likes("Inception")) // this is a normal method cal
+  //likes is a method of the class Person
   //infix notation = operator notation (syntactic sugar)
   println(mary likes "Inception") // this is infix notation
   // infix notation works only with methods which have one parameter

@@ -11,7 +11,7 @@ object L4MethodNotationsExercise extends App {
     def learns(): String = s"$name learns Scala"
   }
   val mary = new Person("Mary", "Inception")
-  println((mary + "the rockstar").liking("Joe"))
+  println((mary + "the rockstar").liking("Joe")) //Mary(the rockstar) likes Inception and Joe
   //yeh wali println bohot saare topics cover ker rhi
 
     //2) Add an age to the Person class

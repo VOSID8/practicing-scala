@@ -1,0 +1,4 @@
+[debug] [practicing-scala-test] Classpath dependencies List()
+[debug] [practicing-scala-test] Dependencies from configurations List(practicing-scala)
+[debug] Bloop wrote the configuration of project 'practicing-scala-test' to 'C:\Projects\practicing-scala\.bloop\practicing-scala-test.json'
+[success] Generated .bloop\practicing-scala-test.json

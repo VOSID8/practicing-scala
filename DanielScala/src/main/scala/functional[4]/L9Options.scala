@@ -1,3 +1,5 @@
+import scala.util.Random
+
 object L9Options {
   
     val myFirstOption: Option[Int] = Some(4)

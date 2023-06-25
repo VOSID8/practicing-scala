@@ -55,7 +55,5 @@ object L10Generics extends App{
   //val newCage = new Cage(new Car) //error
 
   //expand MyList to be generic
-  
-
 
 }

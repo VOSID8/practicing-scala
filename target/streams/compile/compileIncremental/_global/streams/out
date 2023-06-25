@@ -1,6 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mFound differing options:[0m
 [0m[[0m[0mdebug[0m] [0m[0ma: scala=-Xplugin:C:\Users\Siddh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-scalac_2.12.16\4.7.7\semanticdb-scalac_2.12.16-4.7.7.jar,-Yrangepos,-P:semanticdb:synthetics:on,-P:semanticdb:failures:warning,-P:semanticdb:sourceroot:C:\Projects\ScalaBasics\learning-scala,-P:semanticdb:targetroot:C:\Projects\ScalaBasics\learning-scala\target\scala-2.12\meta java=-Xplugin:semanticdb -sourceroot:C:\Projects\ScalaBasics\learning-scala -targetroot:C:\Projects\ScalaBasics\learning-scala\target\scala-2.12\meta -build-tool:sbt[0m
-[0m[[0m[0mdebug[0m] [0m[0mb: scala=-Xplugin:C:\Users\Siddh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-scalac_2.12.16\4.7.7\semanticdb-scalac_2.12.16-4.7.7.jar,-Yrangepos,-P:semanticdb:synthetics:on,-P:semanticdb:failures:warning,-P:semanticdb:sourceroot:C:\Projects\learning-scala,-P:semanticdb:targetroot:C:\Projects\learning-scala\target\scala-2.12\meta java=-Xplugin:semanticdb -sourceroot:C:\Projects\learning-scala -targetroot:C:\Projects\learning-scala\target\scala-2.12\meta -build-tool:sbt[0m
+[0m[[0m[0mdebug[0m] [0m[0mb: scala= java=[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m

@@ -32,6 +32,4 @@ object L8StringsOps extends App {
                            // newline
     //it is injected as a string, not as a newline
 
-
-
 }

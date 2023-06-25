@@ -1,6 +1,9 @@
 
 object L8TuplesAndMaps extends App {
     //tuples- finite ordered "lists"
+    //tuples can group at most 22 elements of different types
+    //tuples are difference from lists because they can group different types of elements
+    //list can only group elements of the same type
     val aTuple = (2,"Hello Scala") 
     println(aTuple._1) //2
     println(aTuple.copy(_2 = "Goodbye Java")) //(2,Goodbye Java)
@@ -9,6 +12,8 @@ object L8TuplesAndMaps extends App {
     //maps
     val aMap: Map[String,Int] = Map()
     val phoneBook = Map(("Jim",555),("Daniel",789)).withDefaultValue(-1)
+    //a -> b is sugar for (a,b)
+    //withDefaultValue is a method that returns a default value if the key is not found
     println(phoneBook)
     println(phoneBook.contains("Jim"))
     println(phoneBook("Jim"))
@@ -20,6 +25,7 @@ object L8TuplesAndMaps extends App {
     //functions on maps
     //map, flatMap, filter
     println(phoneBook.map(pair => pair._1.toLowerCase -> pair._2))
+    //result: Map(jim -> 555, daniel -> 789)
     //filterKeys
     println(phoneBook.filterKeys(x => x.startsWith("J")))
 
@@ -32,6 +38,7 @@ object L8TuplesAndMaps extends App {
     val names = List("Bob","James","Angela","Mary","Daniel","Jim")
 
     println(names.groupBy(name => name.charAt(0)))
+    //result: Map(J -> List(James, Jim), A -> List(Angela), M -> List(Mary), B -> List(Bob), D -> List(Daniel))
 
     /*
     1. What would happen if I had two original entries "Jim" -> 555 and "JIM" -> 900
@@ -98,7 +105,7 @@ object L8TuplesAndMaps extends App {
     }
 
     println(nPeopleWithNoFriends(testNet)) //0
-    def SocialConnection(network: Map[String, Set[String]], a:String,b:String): Boolean = {
+    def SocialConnection(network: Map[String, Set[String]], a:String,b:String): Unit = {
         def bfs(target: String, consideredPeople: Set[String], discoveredPeople: Set[String]): Boolean = {
             if(discoveredPeople.isEmpty) false
             else {

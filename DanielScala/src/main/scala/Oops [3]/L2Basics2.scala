@@ -45,7 +45,7 @@ object L2Basics2 extends App {
             new Counter(count - 1)
         }
         def inc(n: Int): Counter = {
-            if(n <= 0) this
+            if(n <= 0) this //base case: if n is 0, return the same counter
             else inc.inc(n-1) // tail recursion
             //inc uske baad inc(n-1) call hoga
         }
@@ -55,7 +55,7 @@ object L2Basics2 extends App {
         }
         def print = println(count)
     }
-    val counter = new Counter
+    val counter = new Counter //using new we are creating a new instance of the class Counter
     println(counter.inc.count)
     println(counter.inc.inc.inc.count)
     counter.inc.inc.inc.print

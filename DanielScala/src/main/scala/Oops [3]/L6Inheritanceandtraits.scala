@@ -29,9 +29,10 @@ object L6Inheritanceandtraits extends App {
         println("BAWAWHAWHHW")
       }
     }
+    //if there is val by same value in both child and parent, then it will be overridden by child
     val dog = new Dog("K9")
     dog.eat
-    println(dog.creatureType)
+    println(dog.creatureType) //answer is K9 
 
 
     //type substitution (polymorphism)

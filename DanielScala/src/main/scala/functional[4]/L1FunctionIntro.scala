@@ -1,4 +1,6 @@
 object L1FunctionIntro extends App {
+
+
   val doubler = new MyFunction[Int, Int] {
     override def apply(element: Int): Int = element * 2
   }
@@ -10,6 +12,7 @@ object L1FunctionIntro extends App {
   val adder: ((Int, Int) => Int) = new Function2[Int, Int, Int] {
     override def apply(a: Int, b: Int): Int = a + b
   }
+  println(adder(4, 5))
   //val adder = new Function2[Int, Int, Int] 
   /*
   1. a function which takes 2 strings and concatenates them
@@ -27,6 +30,8 @@ object L1FunctionIntro extends App {
       override def apply(y: Int): Int = x + y
     }
   }
+  val adder3 = superAdder(3)
+  println(adder3(4))
 }
 
 trait MyFunction[A, B] {

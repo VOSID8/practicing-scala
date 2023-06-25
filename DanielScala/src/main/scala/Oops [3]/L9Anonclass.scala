@@ -23,7 +23,9 @@ object L9Anonclass extends App {
     // sayHi is a method of the class Person 
   }
 
-  val jim = new Person("Jim") {
+  val jim = new Person("Sam") {
     override def sayHi: Unit = println(s"Hi, my name is Jim, how can I be of service?")
   }
+
+  println(jim.sayHi) // Hi, my name is Jim, how can I be of service?
 }
